@@ -4,14 +4,12 @@
 h1, h2{
     font-family: 'Fjalla One', sans-serif;
 }
+.display-4{
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+}
 p{
     font-family: 'Merriweather', serif;
-}
-#aboutSection{
-
-}
-.portfolioImgs{
-
 }
 .subtitle{
     color: lightslategray;

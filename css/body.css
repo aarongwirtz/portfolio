@@ -14,3 +14,7 @@ p{
 .subtitle{
     color: lightslategray;
 }
+#footer{
+    margin: 0;
+    padding: 6em 0em 6em 0;
+}

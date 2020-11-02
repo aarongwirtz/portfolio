@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Aaron Gwirtz</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="assets/fontAwesome/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark <!--bg-dark--> navbar-custom">
+        <a class="navbar-brand" href="#">AG</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <!-- <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
+            <a class="nav-link" href="#target1">Recent Work</a>
+            <a class="nav-link" href="#target2">About</a>
+            <a class="nav-link" href="#target2">Contact</a>
+            <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+          </div>
+        </div>
+      </nav>
+
+      <!-- HEADER -->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Aaron Gwirtz</h1>
+          <p class="lead">Graphic Design & Web Development</p>
+        </div>
+      </div>
+
+      <!--START ABOUT-->
+      <div id="about">
+        <!--START CONTAINER-->
+        <div class="container-fluid">
+          <!--START ABOUT-->
+          <div class="row">
+            <div class="col-sm-6">
+              <h1 class="subtitle" id="target1">RECENT WORK</h1>
+            </div>
+          </div>
+          <!--END ABOUT-->
+          <!--START ROW ONE-->
+          <div class="row">
+              <div class="col-sm-4">
+                <a href="https://aarongwirtz.github.io/static_layout/">
+                <img src="assets/images/kast.png" class="portfolioImgs">
+                </a>
+                <h2>STATIC LAYOUT</h2>
+              </div>
+              <div class="col-sm-4">
+                <a href="https://codepen.io/aarongwirtz/pen/jOrOgXm">
+                <img src="assets/images/creature.png">
+                </a>
+                <h2>CSS CREATURE</h2>  
+              </div>
+              <div class="col-sm-4">
+                <a href="https://aarongwirtz.github.io/apiProjectOne/">
+                <img src="assets/images/apiOne.png">
+                </a>
+              <h2>CORONAVIRUS API</h2>
+              </div>
+          </div>
+          <!-- END ROW ONE-->
+          <!--START ROW TWO-->
+          <div class="row">
+            <div class="col-sm-4">
+              <a href="https://aarongwirtz.github.io/static_layout/">
+              <img src="assets/images.blank.jpg">
+              </a>
+              <h2>CALENDARIFIC API</h2>
+            </div>
+            <div class="col-sm-4">
+              <img src="assets/images/blue.png">
+              <h2>BLUE BADGE TBA</h2>
+            </div>
+            <div class="col-sm-4">
+              <img src="assets/images/red.png">
+              <h2>RED BADGE TBA</h2>
+            </div>
+          </div>
+          <!--END ROW 2-->
+        </div>
+        <!--END CONTAINER-->
+      </div>
+      <!-- END ABOUT ID-->
+
+      <!--START CONTAINER-->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6">
+            <h1 class="subtitle" id="target2">ABOUT ME</h1>
+          </div>
+        </div>
+
+        <div id="aboutSection" class="row" style="padding-bottom: 40px";>
+          <div class="col-sm-4">
+            <p>Hi, my name is Aaron. I am a graphic designer and web developer in Indianapolis. For the past three years I have been working as a designer in the screenprinting industry. I am now furthering my web development skills with Eleven Fifty Academy.</p>
+            <p>I love learning about new businesses and developing functional ways for them to communicate with their customers, clients, and business partners. Please feel free to contact using the contact form on this page, I would love to hear from you.</p>
+          </div>
+          <!-- CONTACT FORM -->
+          <div class="col-sm-6">
+            <form
+              action="https://formspree.io/f/xrgoqbby"
+              method="POST">
+              <label>Your email:<br><input type="text" name="_replyto"></label><br>
+              <label>Your message:<br><textarea name="message"></textarea></label><br>      
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div><!--END OF ROW-->
+      </div>
+      <!--END CONTAINER-->
+
+      <div id="footer" class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <div class="col-sm-4" id="footernav">
+            <p><i class="devicon-linkedin-plain"></i>&nbsp&nbsp
+            <a href="https://www.linkedin.com/in/aarongwirtz/">Visit me on Linked In</a><br></p>
+          <p><i class="fa fa-file-text" aria-hidden="true"></i>&nbsp&nbsp
+            <a href="https://drive.google.com/file/d/1M00sANkIBeJeyfkLwxTa401-chBVASec/view?usp=sharing">Download my resume from Google Drive</a></p>
+          </div>
+        </div>
+      </div>
+  
+
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+</html>

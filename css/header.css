@@ -1,0 +1,32 @@
+.jumbotron{
+    background: url(../assets/wall.jpg) center top;
+    background-size: cover;
+    height: 25vh;
+    background-position: center;
+    color: white;
+    margin-bottom: 0;
+}
+.display-4{
+    background-color: none;
+    color: white;
+    font-weight: bolder;
+}
+#footer{
+    padding-top: 20px;
+    background-image: none;
+    background-color: lightslategray;
+    height: 8vh;
+}
+#footer a{
+    line-height: 1em;
+}
+a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    font-family: sans-serif;
+    text-decoration: underline;
+    color: white;
+}
